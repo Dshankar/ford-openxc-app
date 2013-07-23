@@ -2,6 +2,44 @@ html{color:#000;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fiel
 a {outline: none;} /* Gets rid of Firefox's dotted borders */
 a img {border: none;} /* Gets rid of IE's blue borders */
 
-html{
-  background: #444;
+body{
+  background: #eee;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.row{
+  margin-top: 40px;
+}
+
+.card{
+  background: #fff;
+}
+
+.card-header, .card-recommendation, .card-status{
+  padding: 25px;
+}
+.card-header{
+  background: #3f83ca;
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+}
+.card-recommendation{
+  background: #ddd;
+  color: #444;
+  font-size: 20px;
+  min-height: 100px;
+}
+.card-tip{
+  font-weight: 700;
+}
+.card-result{
+  font-weight: 400;
+}
+.card-status{
+  background: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  color: #888;
 }
