@@ -452,10 +452,6 @@ line-height: 1.2em;
     display: table;
 }
 
-#locate .card {
-    background: none;
-}
-
 #locate .map {
     opacity: .85;
 }
